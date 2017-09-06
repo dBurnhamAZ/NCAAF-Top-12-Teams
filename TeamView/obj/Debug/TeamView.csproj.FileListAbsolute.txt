@@ -1,0 +1,15 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\TeamView.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\TeamView.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFTeamViewer.Presentation.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFRepository.Interface.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\bin\Debug\NCAAFTeamViewer.Presentation.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamView.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamViewWindow.baml
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamViewWindow.g.cs
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamView_MarkupCompile.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamView.g.resources
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamView.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView\obj\Debug\TeamView.pdb
