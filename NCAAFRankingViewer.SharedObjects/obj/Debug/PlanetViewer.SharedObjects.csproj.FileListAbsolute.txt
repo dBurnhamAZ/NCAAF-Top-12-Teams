@@ -1,0 +1,5 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\bin\Debug\PlanetViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\bin\Debug\PlanetViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\obj\Debug\PlanetViewer.SharedObjects.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\obj\Debug\PlanetViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\obj\Debug\PlanetViewer.SharedObjects.pdb
