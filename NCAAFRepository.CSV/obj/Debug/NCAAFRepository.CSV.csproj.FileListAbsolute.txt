@@ -1,0 +1,9 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRepository.CSV.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRepository.CSV.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\bin\Debug\NCAAFRepository.Interface.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\obj\Debug\NCAAFRepository.CSV.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\obj\Debug\NCAAFRepository.CSV.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.CSV\obj\Debug\NCAAFRepository.CSV.pdb
