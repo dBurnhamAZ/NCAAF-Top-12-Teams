@@ -1,0 +1,7 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\bin\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\bin\Debug\NCAAFRepository.Interface.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\obj\Debug\NCAAFRepository.Interface.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\obj\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Interface\obj\Debug\NCAAFRepository.Interface.pdb
