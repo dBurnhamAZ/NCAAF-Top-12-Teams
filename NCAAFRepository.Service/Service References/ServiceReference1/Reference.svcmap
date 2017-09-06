@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fb99a7ae-20e1-4d68-9cd6-0167aa5fddfc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61766/NCAAFLatestRankings.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NCAAFLatestRankings.disco" MetadataType="Disco" ID="134f83e3-1bd7-484a-9c3d-0a78dae6bbbb" SourceId="1" SourceUrl="http://localhost:61766/NCAAFLatestRankings.svc?disco" />
+    <MetadataFile FileName="NCAAFLatestRankings.xsd" MetadataType="Schema" ID="c841d5ac-7501-4efd-9d69-8da07cc64421" SourceId="1" SourceUrl="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd2" />
+    <MetadataFile FileName="NCAAFLatestRankings1.xsd" MetadataType="Schema" ID="6f683fed-35fc-488a-8acf-083eab84c8bd" SourceId="1" SourceUrl="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="ebec7017-26c2-4a8a-a588-b2e19e1b10f5" SourceId="1" SourceUrl="http://localhost:61766/NCAAFLatestRankings.svc?wsdl" />
+    <MetadataFile FileName="NCAAFLatestRankings2.xsd" MetadataType="Schema" ID="d4075404-1805-4271-a0fc-519b5849de33" SourceId="1" SourceUrl="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

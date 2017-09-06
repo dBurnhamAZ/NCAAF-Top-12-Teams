@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61766/NCAAFLatestRankings.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NCAAFRankingViewer.SharedObjects" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INCAAFLatestRankings_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_GetColleges_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetColleges" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_GetColleges_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollegesResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_GetCollege_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollege" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_GetCollege_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollegeResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_AddCollege_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddCollege" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_AddCollege_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddCollegeResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_UpdateCollege_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCollege" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_UpdateCollege_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCollegeResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_DeleteCollege_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCollege" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_DeleteCollege_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCollegeResponse" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_UpdateColleges_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateColleges" />
+  </wsdl:message>
+  <wsdl:message name="INCAAFLatestRankings_UpdateColleges_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCollegesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INCAAFLatestRankings">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetData" message="tns:INCAAFLatestRankings_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetDataResponse" message="tns:INCAAFLatestRankings_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetColleges">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetColleges" message="tns:INCAAFLatestRankings_GetColleges_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetCollegesResponse" message="tns:INCAAFLatestRankings_GetColleges_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollege">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetCollege" message="tns:INCAAFLatestRankings_GetCollege_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/GetCollegeResponse" message="tns:INCAAFLatestRankings_GetCollege_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCollege">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/AddCollege" message="tns:INCAAFLatestRankings_AddCollege_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/AddCollegeResponse" message="tns:INCAAFLatestRankings_AddCollege_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCollege">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/UpdateCollege" message="tns:INCAAFLatestRankings_UpdateCollege_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/UpdateCollegeResponse" message="tns:INCAAFLatestRankings_UpdateCollege_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCollege">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/DeleteCollege" message="tns:INCAAFLatestRankings_DeleteCollege_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/DeleteCollegeResponse" message="tns:INCAAFLatestRankings_DeleteCollege_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateColleges">
+      <wsdl:input wsaw:Action="http://tempuri.org/INCAAFLatestRankings/UpdateColleges" message="tns:INCAAFLatestRankings_UpdateColleges_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INCAAFLatestRankings/UpdateCollegesResponse" message="tns:INCAAFLatestRankings_UpdateColleges_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_INCAAFLatestRankings" type="tns:INCAAFLatestRankings">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetColleges">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/GetColleges" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollege">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/GetCollege" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCollege">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/AddCollege" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCollege">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/UpdateCollege" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCollege">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/DeleteCollege" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateColleges">
+      <soap:operation soapAction="http://tempuri.org/INCAAFLatestRankings/UpdateColleges" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_INCAAFLatestRankings" binding="tns:BasicHttpBinding_INCAAFLatestRankings">
+      <soap:address location="http://localhost:61766/NCAAFLatestRankings.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

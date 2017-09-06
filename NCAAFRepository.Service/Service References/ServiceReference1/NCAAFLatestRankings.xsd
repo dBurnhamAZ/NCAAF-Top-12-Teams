@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NCAAFRankingViewer.SharedObjects" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NCAAFRankingViewer.SharedObjects" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfCollegeTeams">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CollegeTeams" nillable="true" type="tns:CollegeTeams" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCollegeTeams" nillable="true" type="tns:ArrayOfCollegeTeams" />
+  <xs:complexType name="CollegeTeams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CollegeIcon" nillable="true" type="xs:anyURI" />
+      <xs:element minOccurs="0" name="CollegeLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CollegeRanking" type="xs:int" />
+      <xs:element minOccurs="0" name="CollegeTeamName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DateOfRanking" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CollegeTeams" nillable="true" type="tns:CollegeTeams" />
+</xs:schema>
