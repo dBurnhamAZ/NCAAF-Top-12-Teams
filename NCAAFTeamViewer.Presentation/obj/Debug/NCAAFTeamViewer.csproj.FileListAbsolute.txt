@@ -1,0 +1,9 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFTeamViewer.Presentation.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFTeamViewer.Presentation.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\bin\Debug\NCAAFRepository.Interface.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\obj\Debug\NCAAFTeamViewer.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\obj\Debug\NCAAFTeamViewer.Presentation.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFTeamViewer.Presentation\obj\Debug\NCAAFTeamViewer.Presentation.pdb
