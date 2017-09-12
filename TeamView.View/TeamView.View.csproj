@@ -89,12 +89,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\M1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\NCAAFRepository.CSV\NCAAFRepository.CSV.csproj">
       <Project>{5a78473a-b561-4917-b36c-b54703eb2133}</Project>
       <Name>NCAAFRepository.CSV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NCAAFRepository.GetLatestRankings\NCAAFRepository.GetLatestRankings.csproj">
+      <Project>{1025cb56-7844-41e2-b77b-f490b12aca8b}</Project>
+      <Name>NCAAFRepository.GetLatestRankings</Name>
     </ProjectReference>
     <ProjectReference Include="..\NCAAFRepository.Interface\NCAAFRepository.Interface.csproj">
       <Project>{106a9498-01bd-474a-be5c-2b2de1fe4716}</Project>
