@@ -1,0 +1,14 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRepository.GetLatestRankings.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRepository.GetLatestRankings.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\HtmlRenderer.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\HtmlRenderer.WinForms.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRepository.Interface.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\NCAAFRepository.Interface.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\HtmlRenderer.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\bin\Debug\HtmlRenderer.WinForms.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\obj\Debug\NCAAFRepository.GetLatestRankings.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\obj\Debug\NCAAFRepository.GetLatestRankings.csproj.ResolveComReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\obj\Debug\NCAAFRepository.GetLatestRankings.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.GetLatestRankings\obj\Debug\NCAAFRepository.GetLatestRankings.pdb
