@@ -29,16 +29,15 @@ namespace NCAAFRepository.CSV
                     string line;
                     while ((line = sr.ReadLine()) != null)
                     {
-                        var elems = line.Split(',');
+                        var elems = line.Split('^');
                         string stringPath = elems[3].ToString();
-                        Uri imageUri = new Uri(stringPath, UriKind.Relative);
-                        //BitmapImage imageBitmap = new BitmapImage(imageUri);
                         var team = new CollegeTeams()
                         {
                             CollegeTeamName = elems[0],
                             CollegeLocation = elems[1],
                             CollegeRanking = Int32.Parse(elems[2]),
-                            CollegeIcon = imageUri
+                            CollegeIcon = elems[3],
+                            DateOfRanking = elems[5]
                         };
                         teams.Add(team);
                     }
@@ -67,8 +66,8 @@ namespace NCAAFRepository.CSV
                             CollegeTeamName = elems[0],
                             CollegeLocation = elems[1],
                             CollegeRanking = Int32.Parse(elems[2]),
-                            CollegeIcon = imageUri,
-                            DateOfRanking = DateTime.Parse(elems[5])
+                            CollegeIcon = elems[3],
+                            DateOfRanking = elems[5]
                         };
                     }
                 }
@@ -86,7 +85,7 @@ namespace NCAAFRepository.CSV
             throw new NotImplementedException();
         }
 
-        public void UpdateCollege(string planetName, CollegeTeams updatedCollege)
+        public void UpdateCollege(string teamName, CollegeTeams updatedCollege)
         {
             throw new NotImplementedException();
         }
