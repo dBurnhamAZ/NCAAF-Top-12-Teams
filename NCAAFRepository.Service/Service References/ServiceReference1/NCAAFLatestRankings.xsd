@@ -8,11 +8,11 @@
   <xs:element name="ArrayOfCollegeTeams" nillable="true" type="tns:ArrayOfCollegeTeams" />
   <xs:complexType name="CollegeTeams">
     <xs:sequence>
-      <xs:element minOccurs="0" name="CollegeIcon" nillable="true" type="xs:anyURI" />
+      <xs:element minOccurs="0" name="CollegeIcon" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="CollegeLocation" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="CollegeRanking" type="xs:int" />
       <xs:element minOccurs="0" name="CollegeTeamName" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="DateOfRanking" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DateOfRanking" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="CollegeTeams" nillable="true" type="tns:CollegeTeams" />

@@ -1,3 +1,4 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\obj\Debug\NCAAFRepository.Service.csprojResolveAssemblyReference.cache
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRepository.Service.dll.config
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRepository.Service.dll
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRepository.Service.pdb
@@ -5,6 +6,5 @@ C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCA
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRepository.Interface.dll
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\bin\Debug\NCAAFRepository.Interface.pdb
-C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\obj\Debug\NCAAFRepository.Service.csprojResolveAssemblyReference.cache
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\obj\Debug\NCAAFRepository.Service.dll
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRepository.Service\obj\Debug\NCAAFRepository.Service.pdb

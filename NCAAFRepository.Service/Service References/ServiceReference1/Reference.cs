@@ -40,7 +40,7 @@ namespace NCAAFRepository.Service.ServiceReference1 {
         System.Threading.Tasks.Task AddCollegeAsync(NCAAFRankingViewer.SharedObjects.CollegeTeams newCollege);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INCAAFLatestRankings/UpdateCollege", ReplyAction="http://tempuri.org/INCAAFLatestRankings/UpdateCollegeResponse")]
-        void UpdateCollege(string teamName, NCAAFRankingViewer.SharedObjects.CollegeTeams updatedCollege);
+        void UpdateCollege(string planetName, NCAAFRankingViewer.SharedObjects.CollegeTeams updatedCollege);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/INCAAFLatestRankings/UpdateCollege", ReplyAction="http://tempuri.org/INCAAFLatestRankings/UpdateCollegeResponse")]
         System.Threading.Tasks.Task UpdateCollegeAsync(string planetName, NCAAFRankingViewer.SharedObjects.CollegeTeams updatedCollege);
