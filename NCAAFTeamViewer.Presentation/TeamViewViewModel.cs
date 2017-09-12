@@ -10,13 +10,17 @@ namespace NCAAFTeamViewer.Presentation
     public class TeamViewViewModel : INotifyPropertyChanged
     {
         protected ITeamRepository _repository;
+        private string repository = "Repository Type: ";
+        private IEnumerable<CollegeTeams> _teams;
 
+        #region Constructor
         public TeamViewViewModel(ITeamRepository repository)
         {
             _repository = repository;
         }
+        #endregion Constuctor
 
-        private IEnumerable<CollegeTeams> _teams;
+        #region public methods
         public IEnumerable<CollegeTeams> Teams
         {
             get { return _teams; }
@@ -28,13 +32,23 @@ namespace NCAAFTeamViewer.Presentation
                 RaisePropertyChanged("Teams");
             }
         }
-
+               
+        public string Repository
+        {
+            get { return repository; }
+            set
+                {
+                    repository = "Repository Type: " + " " + value;
+                }
+        }
+        #endregion public methods
+        
         #region RefreshCommand
         private RefreshCommand _refreshTeamCommand = new RefreshCommand();
         public RefreshCommand RefreshTeamCommand
         {
             get
-            {
+             {
                 if (_refreshTeamCommand.RefreshTeamViewModel == null)
                     _refreshTeamCommand.RefreshTeamViewModel = this;
                 return _refreshTeamCommand;
