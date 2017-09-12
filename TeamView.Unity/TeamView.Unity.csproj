@@ -113,6 +113,10 @@
       <Project>{5a78473a-b561-4917-b36c-b54703eb2133}</Project>
       <Name>NCAAFRepository.CSV</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NCAAFRepository.GetLatestRankings\NCAAFRepository.GetLatestRankings.csproj">
+      <Project>{1025CB56-7844-41E2-B77B-F490B12ACA8B}</Project>
+      <Name>NCAAFRepository.GetLatestRankings</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NCAAFRepository.Interface\NCAAFRepository.Interface.csproj">
       <Project>{106a9498-01bd-474a-be5c-2b2de1fe4716}</Project>
       <Name>NCAAFRepository.Interface</Name>
