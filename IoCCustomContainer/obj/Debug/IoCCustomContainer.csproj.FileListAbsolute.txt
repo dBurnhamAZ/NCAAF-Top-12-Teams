@@ -1,0 +1,4 @@
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\IoCCustomContainer\bin\Debug\IoCCustomContainer.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\IoCCustomContainer\bin\Debug\IoCCustomContainer.pdb
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\IoCCustomContainer\obj\Debug\IoCCustomContainer.dll
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\IoCCustomContainer\obj\Debug\IoCCustomContainer.pdb
