@@ -5,6 +5,6 @@ C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\obj\Debug\
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\PlanetViewer.SharedObjects\obj\Debug\PlanetViewer.SharedObjects.pdb
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\bin\Debug\NCAAFRankingViewer.SharedObjects.dll
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\bin\Debug\NCAAFRankingViewer.SharedObjects.pdb
-C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\obj\Debug\NCAAFRankingViewer.SharedObjects.csprojResolveAssemblyReference.cache
+C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\obj\Debug\NCAAFRankingViewer.SharedObjects.g.resources
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\obj\Debug\NCAAFRankingViewer.SharedObjects.dll
 C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\NCAAFRankingViewer.SharedObjects\obj\Debug\NCAAFRankingViewer.SharedObjects.pdb
