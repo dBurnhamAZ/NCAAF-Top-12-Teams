@@ -21,6 +21,7 @@ namespace NCAAFUnitTests
                     new CollegeTeams() { CollegeTeamName = "USC", CollegeLocation = "Los Angeles, CA", CollegeRanking = 4 },
                     new CollegeTeams() { CollegeTeamName = "Clemson", CollegeLocation = "Clemson, SC", CollegeRanking = 5 },
             };
+
             var unityMock = new Mock<ITeamRepository>();
             unityMock.Setup(r => r.GetColleges()).Returns(Teams);
 

@@ -68,7 +68,7 @@ namespace NCAAFTeamViewer.Presentation
             var repo = new ServiceRepository();
             repo.ServiceProxy = _service;
 
-            //Act
+            //act
             var output = repo.GetCollege("Not A Real College");
 
             //assert

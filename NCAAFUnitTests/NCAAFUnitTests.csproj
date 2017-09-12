@@ -80,6 +80,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CustomIoCContainerRepositoryTests.cs" />
     <Compile Include="NCAAFTeamViewViewModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceRepositoryTests.cs" />
@@ -87,9 +88,17 @@
     <Compile Include="UnityServiceRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IoCCustomContainer\IoCCustomContainer.csproj">
+      <Project>{82e174ca-ba67-4bd3-b026-4a1e946015d5}</Project>
+      <Name>IoCCustomContainer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NCAAFRankingViewer.SharedObjects\NCAAFRankingViewer.SharedObjects.csproj">
       <Project>{8353e497-a7bf-4899-82a0-bf73035730e9}</Project>
       <Name>NCAAFRankingViewer.SharedObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NCAAFRepository.CSV\NCAAFRepository.CSV.csproj">
+      <Project>{5A78473A-B561-4917-B36C-B54703EB2133}</Project>
+      <Name>NCAAFRepository.CSV</Name>
     </ProjectReference>
     <ProjectReference Include="..\NCAAFRepository.Interface\NCAAFRepository.Interface.csproj">
       <Project>{106a9498-01bd-474a-be5c-2b2de1fe4716}</Project>
