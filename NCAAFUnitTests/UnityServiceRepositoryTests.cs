@@ -3,11 +3,8 @@ using Moq;
 using NCAAFRankingViewer.SharedObjects;
 using NCAAFRepository.Service;
 using NCAAFRepository.Service.ServiceReference1;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace NCAAFUnitTests
