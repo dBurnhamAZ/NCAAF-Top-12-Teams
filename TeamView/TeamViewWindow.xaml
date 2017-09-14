@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-        xmlns:int="http://schemas.microsoft.com/expression/2010/interactions"
+        xmlns:int="http://schemas.microsoft.com/expression/2010/interactions"        
         mc:Ignorable="d"
         x:Name="MainApplicationWindow"
         Height="Auto"
@@ -25,23 +25,37 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="5" />
         </Grid.RowDefinitions>
-        <Image x:Name="imgMGoBlue"  Source="C:\Sandbox\WPFDIIoCDemo\WPFDIContainerDemo\TeamView.View\Images\M1.jpg" Visibility="Visible" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill" Grid.RowSpan="5" Grid.ColumnSpan="6" Opacity="0.10"/>
+        <Image x:Name="imgMGoBlue" Source="/TeamView;component/Resources/Images/M1.jpg" Visibility="Visible" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="Fill" Grid.RowSpan="5" Grid.ColumnSpan="6" Opacity="0.10"/>
+
         <StackPanel Grid.ColumnSpan="6" Height="65" Orientation="Horizontal"  VerticalAlignment="Top" Background="Blue" Canvas.ZIndex="1">
-            <TextBlock Grid.Column="0"
-                    Foreground="Yellow"
+            <TextBlock Foreground="Yellow"
                     Margin="10,0,0,0"
-                    Grid.ColumnSpan="3"
                     HorizontalAlignment="Stretch"
                     x:Name="txtTopMenuBar"
                     TextWrapping="Wrap"
                     FontSize="28"
                     FontFamily="Helvetica Neue LT Std"
                     FontWeight="Bold"
-                    Text="NCAAF Top 10"
+                    Text="NCAAF Top 25"
                     VerticalAlignment="Center"
                     Height="Auto"                    
                     Padding="10"/>
         </StackPanel>
+        <StackPanel Grid.Column="3" Height="65" Orientation="Horizontal" HorizontalAlignment="Right"  VerticalAlignment="Top" Background="Blue" Canvas.ZIndex="1">
+            <TextBlock Grid.Column="3"                    
+                    Foreground="LightGreen"
+                    x:Name="txtRepository"
+                    TextWrapping="NoWrap"
+                    FontSize="18"
+                    FontFamily="Helvetica Neue LT Std"
+                    FontWeight="Bold"
+                    Text ="{Binding Repository}"
+                    VerticalAlignment="Center"
+                    Height="Auto"   
+                    Width="Auto"
+                    Padding="10"/>
+        </StackPanel>
+
         <Grid x:Name="gdBackground"
               Grid.Column="1"
               Grid.Row="1">
